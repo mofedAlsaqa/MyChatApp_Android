@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="SplashScreen_Width_hightImg">150dp</dimen>
+    <dimen name="SplashScreen_marginBtnOne">5dp</dimen>
+    <dimen name="SplashScreen_marginBtn">30dp</dimen>
+    <dimen name="SplashScreen_textsize">18sp</dimen>
+    <dimen name="MainActivity_textsize">15sp</dimen>
+    <dimen name="MainActivity_Width_hightImg">100dp</dimen>
+    <dimen name="MainActivity_MargTop">30dp</dimen>
+    <dimen name="MainActivity_MargTopEditTv">10dp</dimen>
+    <dimen name="MainActivity_TextColorOTP">20sp</dimen>
+    <dimen name="MainActivity_SizePadding">20sp</dimen>
+    <dimen name="MainActivity_CountryCodeSize">50dp</dimen>
+    <dimen name="MainActivity_MargStrCode">100dp</dimen>
+    <dimen name="MainActivity_MargEndCode">100dp</dimen>
+    <dimen name="MainActivity_MargBtn">10dp</dimen>
+    <dimen name="MainActivity_HigtEditTv">50dp</dimen>
+    <dimen name="MainActivity_MargstrEditTv">70dp</dimen>
+    <dimen name="MainActivity_MargEndEditTv">70dp</dimen>
+    <dimen name="MainActivity_HightWidgetbtn">40dp</dimen>
+    <dimen name="MainActivity_paddingbtn">40dp</dimen>
+<!--    <dimen name="MainActivity_backgroundbtn">#25d366</dimen>-->
+    <dimen name="OTP_AutenicationTv_Width_hightEditTv">150dp</dimen>
+    <dimen name="OTP_AutenicationTv_MargStrEndCode">120dp</dimen>
+    <dimen name="OTP_AutenicationTv_MargTopCode">15dp</dimen>
+    <dimen name="OTP_AutenicationTv_SizeTv_Code">15dp</dimen>
+    <dimen name="OTP_AutenicationTv_paddingbtn">40dp</dimen>
+    <dimen name="OTP_Autenication_Width_hightImg">100dp</dimen>
+    <dimen name="OTP_Autenication_MargTop">30dp</dimen>
+    <dimen name="OTP_Autenication_SizePadding">20sp</dimen>
+    <dimen name="OTP_Autenication_MargTop_CodeBtn">50dp</dimen>
+    <dimen name="OTP_AutenicationTv_MargStrEnd_CodeBtn">40dp</dimen>
+    <dimen name="SetProfile_TextSizeSava">30sp</dimen>
+    <dimen name="SetProfile_higWidth_CarVw">130dp</dimen>
+    <dimen name="SetProfile_MargBtn">20dp</dimen>
+    <dimen name="SetProfile_MargStr_CarVw">80dp</dimen>
+    <dimen name="SetProfile_MargTopTv">100dp</dimen>
+    <dimen name="SetProfile_hightEditTv">50dp</dimen>
+    <dimen name="SetProfile_MargStrEnd_EditTv">70dp</dimen>
+    <dimen name="SetProfile_WidthBtn">150dp</dimen>
+    <dimen name="SetProfile_HightBtn">50dp</dimen>
+    <dimen name="SetProfile_margbtn">20dp</dimen>
+    <dimen name="SetProfile_margtop_progs">30dp</dimen>
+    <dimen name="ChatActv_TvSize">20sp</dimen>
+    <dimen name="ChatActv_margtopviewpager">0dp</dimen>
+    <dimen name="ChatActv_tabIndicatorHeight">5dp</dimen>
+    <dimen name="ChatActv_margtoptoolbar">0dp</dimen>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splashscreen">
+    
+    
+    <ImageView
+        android:layout_width="@dimen/SplashScreen_Width_hightImg"
+        android:layout_height="@dimen/SplashScreen_Width_hightImg"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="form"
+        android:textColor="@color/Splashscreen_textcolorform"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/maintext"
+        android:layout_marginBottom="@dimen/SplashScreen_marginBtn"/>
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SplashScreen_tv_TechProject"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/SplashScreen_textsize"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/SplashScreen_marginBtn"
+        android:textColor="@color/Splashscreen_textcolormain"
+        />
+
+
+
+
+</RelativeLayout>

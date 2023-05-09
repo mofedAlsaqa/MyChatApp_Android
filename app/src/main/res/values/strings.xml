@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyChatApp</string>
+    <string name="SplashScreen_tv_form">form</string>
+    <string name="SplashScreen_tv_TechProject">TECH PROJECT</string>
+    <string name="MainActivity_TextOTP">Chat App Will Send OTP To Your Entered Number</string>
+    <string name="MainActivity_EditTv">Enter Your Number Here</string>
+    <string name="OTP_Autenication_CodeOTP">Enter The Code Which You Recieved </string>
+    <string name="OTP_AutenicationTv_OTP">Enter The Code </string>
+    <string name="OTP_AutenicationTv_OTPCode">Didnt Recive? Change Your Number </string>
+    <string name="OTP_AutenicationTv_Btn">Verify Code </string>
+    <string name="SetProfile_TvSave">Save Your Profile</string>
+    <string name="SetProfile_TvHintEdit">Enter your Name</string>
+    <string name="SetProfile_TvBtn">Save Profile</string>
+    <string name="ChatActv_TvApp">My Chat App</string>
+    <string name="ChatActv_TvToolbarChat">chat</string>
+    <string name="ChatActv_TvTollbarStatus">status</string>
+    <string name="ChatActv_TvTollbarCalls">calls</string>
+
+
+    <string-array name="City">
+        <item>Gaza</item>
+        <item>Khan younes</item>
+        <item>Alqrara</item>
+    </string-array>
+
+
+</resources>

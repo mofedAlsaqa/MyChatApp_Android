@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق دردشة خاص بي</string>
+    <string name="SplashScreen_tv_form">شكل</string>
+    <string name="SplashScreen_tv_TechProject">مشروع تك</string>
+    <string name="MainActivity_TextOTP">سيرسل تطبيق الدردشة الكود إلى رقمك الذي أدخلته</string>
+    <string name="MainActivity_EditTv">أدخل الرقم الخاص بك</string>
+    <string name="OTP_Autenication_CodeOTP">أدخل الرمز الخاص برقم هاتفك </string>
+    <string name="OTP_AutenicationTv_OTP">أدخل الرمز </string>
+    <string name="OTP_AutenicationTv_OTPCode">لم تستلم الرمز </string>
+    <string name="OTP_AutenicationTv_Btn">تأكيد الرمز </string>
+    <string name="SetProfile_TvSave">حفظ الملف الشخصي</string>
+    <string name="SetProfile_TvHintEdit">أدخل الإسم</string>
+    <string name="SetProfile_TvBtn">حفظ التعديلات</string>
+    <string name="ChatActv_TvApp">تطبيق للتواصل</string>
+    <string name="ChatActv_TvToolbarChat">الدردشات</string>
+    <string name="ChatActv_TvTollbarStatus">الحالة</string>
+    <string name="ChatActv_TvTollbarCalls">المكالمات</string>
+
+
+    <string-array name="City">
+        <item>غزة</item>
+        <item>خان يونسKhan younes</item>
+        <item>القرارة</item>
+    </string-array>
+</resources>

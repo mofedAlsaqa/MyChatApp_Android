@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/MainActivity_Width_hightImg"
+        android:layout_height="@dimen/MainActivity_Width_hightImg"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/MainActivity_MargTop"
+        android:id="@+id/logo">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/Text_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MainActivity_TextOTP"
+        android:textSize="@dimen/MainActivity_TextColorOTP"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="@dimen/MainActivity_SizePadding"
+        android:textColor="@color/Mainactivity_textcolor"
+        android:layout_below="@+id/logo"
+        >
+
+    </TextView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/centerhorizontalline"
+        >
+
+    </RelativeLayout>
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countrycodepicker"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/MainActivity_CountryCodeSize"
+        android:layout_above="@id/centerhorizontalline"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/MainActivity_MargStrCode"
+        android:layout_marginEnd="@dimen/MainActivity_MargEndCode"
+        android:layout_marginBottom="@dimen/MainActivity_MargBtn"
+        app:ccp_areaCodeDetectedCountry="true"
+        app:ccp_autoDetectCountry="true">
+
+    </com.hbb20.CountryCodePicker>
+    <EditText
+        android:id="@+id/GetPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/MainActivity_HigtEditTv"
+        android:layout_marginStart="@dimen/MainActivity_MargstrEditTv"
+        android:layout_marginEnd="@dimen/MainActivity_MargstrEditTv"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/MainActivity_MargTopEditTv"
+        android:layout_below="@id/centerhorizontalline"
+        android:hint="@string/MainActivity_EditTv"
+
+        >
+
+    </EditText>
+
+    <android.widget.Button
+        android:id="@+id/SendOTPBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/MainActivity_HightWidgetbtn"
+        android:layout_below="@id/GetPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:paddingStart="@dimen/MainActivity_paddingbtn"
+        android:paddingEnd="@dimen/MainActivity_paddingbtn"
+        android:text="Send Code"
+        android:textAllCaps="false"
+        android:textSize="@dimen/MainActivity_textsize"
+        android:textColor="@color/white"
+        android:background="#25d366">
+
+    </android.widget.Button>
+
+
+    <ProgressBar
+        android:id="@+id/ProgressBarOfmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SendOTPBtn"
+        android:layout_marginTop="@dimen/MainActivity_MargTop"
+        android:visibility="invisible">
+
+    </ProgressBar>
+
+
+
+</RelativeLayout>

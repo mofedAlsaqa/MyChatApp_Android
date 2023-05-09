@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SetProfile">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/SetProfile_TextSizeSava"
+      android:text="@string/SetProfile_TvSave"
+      android:textColor="@color/SetProfile_BackgroundTv"
+      android:layout_centerHorizontal="true"
+      android:textStyle="bold"
+      android:layout_marginTop="@dimen/SetProfile_MargTopTv">
+
+  </TextView>
+  
+  <androidx.cardview.widget.CardView
+      android:id="@+id/GetUserImg"
+      android:layout_width="@dimen/SetProfile_higWidth_CarVw"
+      android:layout_height="@dimen/SetProfile_higWidth_CarVw"
+      android:layout_marginBottom="@dimen/SetProfile_MargBtn"
+      android:layout_marginStart="@dimen/SetProfile_MargStr_CarVw"
+      android:layout_centerHorizontal="true"
+      android:layout_above="@+id/GetUserName"
+      app:cardCornerRadius="130dp"
+      >
+
+
+    <ImageView
+        android:id="@+id/GetUserImgInImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"
+      android:scaleType="centerCrop">
+
+    </ImageView>
+
+
+  </androidx.cardview.widget.CardView>
+
+  <EditText
+    android:id="@+id/GetUserName"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/SetProfile_hightEditTv"
+      android:inputType="textCapWords"
+      android:hint="@string/SetProfile_TvHintEdit"
+      android:layout_centerInParent="true"
+      android:layout_marginStart="@dimen/SetProfile_MargStrEnd_EditTv"
+      android:layout_marginEnd="@dimen/SetProfile_MargStrEnd_EditTv">
+
+  </EditText>
+
+  <android.widget.Button
+      android:id="@+id/SaveProfieBtn"
+      android:layout_width="@dimen/SetProfile_WidthBtn"
+      android:layout_height="@dimen/SetProfile_HightBtn"
+      android:layout_below="@+id/GetUserName"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="@dimen/SetProfile_margbtn"
+      android:background="@color/SetProfile_backgroundbtn"
+      android:text="@string/SetProfile_TvBtn"
+      android:textColor="@color/white"
+      android:textAllCaps="false"
+      >
+
+  </android.widget.Button>
+
+  <ProgressBar
+      android:id="@+id/ProgressBarSaveProfile"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@+id/SaveProfieBtn"
+      android:layout_marginTop="@dimen/SetProfile_margtop_progs"
+      android:visibility="invisible">
+
+  </ProgressBar>
+
+
+</RelativeLayout>
